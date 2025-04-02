@@ -1,0 +1,24 @@
+{
+  "name": "demo-plugin",
+  "version": "1.0.0",
+  "description": "Demo Plugin",
+  "main": "webpack.config.js",
+  "author": "Thomas",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
+    "eslint": "^9.23.0",
+    "terser-webpack-plugin": "^5.3.14",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  },
+  "scripts": {
+    "install-deps": "npm install",
+    "build": "webpack --mode production",
+    "lint:js": "eslint --fix ./assets/js",
+    "lint:js:check": "eslint ./assets/js"
+  }
+}

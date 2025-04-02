@@ -1,0 +1,11 @@
+{
+    "name": "tderambure/demo-plugin",
+    "description": "Demo Plugin",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Thomas"
+        }
+    ],
+    "require": {}
+}
